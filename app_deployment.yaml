@@ -14,7 +14,7 @@ spec:
         app: rolloutapp
     spec:
       containers:
-        - image: fleatbnp/express-microservice:14aff3b
+        - image: fleatbnp/express-microservice:5e3549d
           name: rolloutapp
           ports:
             - containerPort: 3000
