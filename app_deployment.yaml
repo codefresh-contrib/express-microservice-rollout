@@ -3,7 +3,7 @@ kind: Rollout
 metadata:
   name: rolloutapp
 spec:
-  replicas: 2
+  replicas: 3
   revisionHistoryLimit: 3
   selector:
     matchLabels:
@@ -22,5 +22,5 @@ spec:
   strategy:
     canary:
       steps:
-        - setWeight: 50
+        - setWeight: 32
         - pause: {}
