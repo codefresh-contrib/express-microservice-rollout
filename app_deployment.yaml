@@ -1,6 +1,6 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
-metadataa:
+metadataaa:
   name: rolloutapp
 specc:
   replicas: 4
