@@ -14,7 +14,7 @@ spec:
         app: rolloutapp
     spec:
       containers:
-        - image: salesdemocf/express-microservice:32a20d7
+        - image: salesdemocf/express-microservice:a8faf26
           name: rolloutapp
           ports:
             - containerPort: 3000
