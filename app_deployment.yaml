@@ -14,7 +14,7 @@ spec:
         app: rolloutapp
     spec:
       containers:
-        - image: 336151728602.dkr.ecr.us-east-1.amazonaws.com/salesdemocf/express-microservice:c5e01f0
+        - image: 336151728602.dkr.ecr.us-east-1.amazonaws.com/salesdemocf/express-microservice:07bce54
           name: rolloutapp
           ports:
             - containerPort: 3000
